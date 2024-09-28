@@ -10,7 +10,8 @@ export class ShieldLayout extends Layout {
             },
             styles: {
                 position: 'rightTop',
-                maxWidth: '30%',
+                maxWidth: '100%',
+                maxHeight: '70%',
             },
         });
 

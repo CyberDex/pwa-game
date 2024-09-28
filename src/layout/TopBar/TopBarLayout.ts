@@ -1,4 +1,5 @@
 import { Layout } from '@pixi/layout';
+import { CoinBarLayout } from 'layout/TopBar/CoinBarLayout';
 import { MenuButtonLayout } from 'layout/TopBar/MenuButtonLayout';
 import { ShieldLayout } from 'layout/TopBar/ShieldLayout';
 import { UserIconLayout } from 'layout/TopBar/UserIconLayout';
@@ -10,12 +11,26 @@ export class TopBarLayout extends Layout {
                 {
                     content: [new MenuButtonLayout(), new UserIconLayout()],
                     styles: {
-                        width: 140,
-                        height: '100%',
-                        maxWidth: '30%',
+                        position: 'left',
+                        width: '20%',
                     },
                 },
-                new ShieldLayout(),
+                {
+                    content: new CoinBarLayout(),
+                    styles: {
+                        position: 'topCenter',
+                        width: '70%',
+                        marginLeft: 20,
+                        marginTop: -50,
+                    },
+                },
+                {
+                    content: new ShieldLayout(),
+                    styles: {
+                        position: 'right',
+                        width: '10%',
+                    },
+                },
             ],
             styles: {
                 position: 'centerTop',

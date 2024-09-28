@@ -11,6 +11,7 @@ export class UserIconLayout extends Layout {
             styles: {
                 position: 'rightCenter',
                 maxHeight: '100%',
+                maxWidth: '50%',
             },
         });
 
