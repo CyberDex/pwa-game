@@ -1,0 +1,26 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "favicon.png",
+          "srcs": [
+            "favicon.png"
+          ]
+        },
+        {
+          "name": "images/images.json",
+          "srcs": [
+            "images/images@1x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
