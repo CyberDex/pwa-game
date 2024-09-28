@@ -43,12 +43,7 @@ export default defineConfig(({ mode }) => {
         base: '/',
         resolve: {
             alias: {
-                game: '/src/game',
-                ui: '/src/ui',
-                utils: '/src/utils',
-                themes: '/src/themes',
-                screens: '/src/screens',
-                components: '/src/components',
+                layout: '/src/layout',
                 plugins: '/src/plugins',
             },
         },

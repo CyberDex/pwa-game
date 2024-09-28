@@ -21,7 +21,6 @@
         "@pixi/sprite-tiling": "^7.4.2",
         "@pixi/spritesheet": "7.4.2",
         "@pixi/ui": "^1.1.4",
-        "@tweenjs/tween.js": "^21.1.1",
         "deepcopy": "^2.1.0",
         "eruda": "^3.0.0",
         "eslint-plugin-import": "^2.29.1",
