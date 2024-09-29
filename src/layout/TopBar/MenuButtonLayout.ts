@@ -11,6 +11,7 @@ export class MenuButtonLayout extends Layout {
             styles: {
                 position: 'leftCenter',
                 maxWidth: '50%',
+                maxHeight: '40%',
             },
         });
 
