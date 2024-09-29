@@ -4,6 +4,36 @@
       "name": "default",
       "assets": [
         {
+          "name": "bg/bg.png",
+          "srcs": [
+            "bg/bg.png"
+          ]
+        },
+        {
+          "name": "bg/city.png",
+          "srcs": [
+            "bg/city.png"
+          ]
+        },
+        {
+          "name": "bg/cloud.png",
+          "srcs": [
+            "bg/cloud.png"
+          ]
+        },
+        {
+          "name": "bg/cloud2.png",
+          "srcs": [
+            "bg/cloud2.png"
+          ]
+        },
+        {
+          "name": "bg/cloud3.png",
+          "srcs": [
+            "bg/cloud3.png"
+          ]
+        },
+        {
           "name": "favicon.png",
           "srcs": [
             "favicon.png"

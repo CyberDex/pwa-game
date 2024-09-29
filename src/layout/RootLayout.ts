@@ -8,7 +8,7 @@ export class RootLayout extends Layout {
         super({
             content: {
                 bg: {
-                    content: Sprite.from('bg'),
+                    content: Sprite.from('bg/bg.png'),
                     styles: {
                         position: 'bottomRight',
                         maxWidth: '100%',
@@ -18,14 +18,14 @@ export class RootLayout extends Layout {
                     },
                 },
                 cloud1: {
-                    content: Sprite.from('cloud'),
+                    content: Sprite.from('bg/cloud.png'),
                     styles: {
                         position: 'topCenter',
                         marginTop: -100,
                     },
                 },
                 cloud2: {
-                    content: Sprite.from('cloud2'),
+                    content: Sprite.from('bg/cloud2.png'),
                     styles: {
                         position: 'topCenter',
                         marginTop: 0,
@@ -33,7 +33,7 @@ export class RootLayout extends Layout {
                     },
                 },
                 city: {
-                    content: Sprite.from('city'),
+                    content: Sprite.from('bg/city.png'),
                     styles: {
                         position: 'center',
                         maxWidth: '115%',
@@ -42,7 +42,7 @@ export class RootLayout extends Layout {
                     },
                 },
                 cloud3: {
-                    content: Sprite.from('cloud3'),
+                    content: Sprite.from('bg/cloud3.png'),
                     styles: {
                         position: 'topCenter',
                     },
