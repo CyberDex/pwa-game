@@ -17,6 +17,7 @@ export default defineConfig(({ mode }) => {
     ];
 
     return {
+        base: '/pwa-game/',
         build: {
             minify: mode === 'production',
             sourcemap: true,
@@ -40,7 +41,6 @@ export default defineConfig(({ mode }) => {
             APP_NAME: JSON.stringify(process.env.npm_package_name),
         },
         envDir: 'env',
-        base: '/',
         resolve: {
             alias: {
                 layout: '/src/layout',
