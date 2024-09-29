@@ -1,6 +1,7 @@
 import { defineConfig, splitVendorChunkPlugin } from 'vite';
 import ConditionalCompile from 'vite-plugin-conditional-compiler';
 import eslintPlugin from '@nabla/vite-plugin-eslint';
+import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig(({ mode }) => {
     const isProd = mode === 'production';
@@ -14,6 +15,16 @@ export default defineConfig(({ mode }) => {
         splitVendorChunkPlugin(),
         ConditionalCompile(),
         eslintPlugin(eslintPluginSettings),
+        VitePWA({
+            registerType: 'autoUpdate',
+            workbox: {
+                maximumFileSizeToCacheInBytes: 30 * 1024 * 1024,
+                globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'],
+            },
+            devOptions: {
+                enabled: true,
+            },
+        }),
     ];
 
     return {
