@@ -10,7 +10,7 @@
         "lint": "eslint src/ --max-warnings 0",
         "lint:fix": "eslint src/ --fix",
         "release": "xs bump,git-push",
-        "assets": "assetpack -c ./assetpack/assetpack.js"
+        "assets": "assetpack"
     },
     "dependencies": {
         "@pixi/app": "7.4.2",

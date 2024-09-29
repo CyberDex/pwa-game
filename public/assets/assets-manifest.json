@@ -40,6 +40,18 @@
           ]
         },
         {
+          "name": "icon-192x192.png",
+          "srcs": [
+            "icon-192x192.png"
+          ]
+        },
+        {
+          "name": "icon-512x512.png",
+          "srcs": [
+            "icon-512x512.png"
+          ]
+        },
+        {
           "name": "images/images.json",
           "srcs": [
             "images/images@1x.json"

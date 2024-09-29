@@ -53,7 +53,6 @@ export class RootLayout extends Layout {
                 position: 'center',
                 width: `100%`,
                 height: `100%`,
-                overflow: 'hidden',
             },
         });
 
